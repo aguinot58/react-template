@@ -1,10 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import authReducer from './authSlice';
-import postsReducer from './postsSlice';
+// import { configureStore } from '@reduxjs/toolkit';
+// import { cardReducer } from './cartSlice';
 
-export const store = configureStore({
-    reducer: {
-        authState: authReducer,
-        posts: postsReducer
-    }
-});
+// export const store = configureStore({
+//     reducer: {
+//         cartState: cardReducer
+//     }
+// });

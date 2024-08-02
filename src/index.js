@@ -3,17 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom'
-import { Provider } from 'react-redux';
-import { store } from './store/store';
 
+// // version utilisant le store
+// import { Provider } from 'react-redux';
+// import { store } from './store/store';
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <Provider store={store}>
+//       <Router>
+//         <App />
+//       </Router>
+//     </Provider>
+//   </React.StrictMode>
+// );
+
+// Version sans store 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <Router>
-        <App />
-      </Router>
-    </Provider>
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>
 );
 
