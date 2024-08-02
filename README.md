@@ -1,5 +1,5 @@
 # Template projet React avec packages react-router-dom / react-redux / @reduxjs/toolkit
-# Contient également un hook personnalisé pour mettre à jour le titre de la page en fonction de la route
+  Contient également un hook personnalisé pour mettre à jour le titre de la page en fonction de la route
 
 Arborescence en partie déjà créée dans src avec les sous-dossiers suivants :
 
