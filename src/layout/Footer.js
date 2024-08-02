@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <footer>
-            <Link to="/">2024 Footer</Link> 
+            <Link to="/">© 2030 WriteNode. All Rights Reserved.</Link> 
         </footer>
     )
 }
